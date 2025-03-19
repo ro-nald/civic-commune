@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gunicorn --workers 2 myproject.wsgi
+gunicorn --workers 2 backend.wsgi
